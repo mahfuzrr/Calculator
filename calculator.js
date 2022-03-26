@@ -27,9 +27,9 @@ function theme1()
         ss = document.getElementById("icon");
         ss.style.backgroundColor = "rgb(41,45,54)";
         ss = document.getElementById("night");
-        ss.setAttribute("src", "icon/moon-w.svg")
+        ss.setAttribute("src", "./icon/moon-w.svg")
         ss = document.getElementById("brightness");
-        ss.setAttribute("src", "icon/brightness-w.svg");
+        ss.setAttribute("src", "./icon/brightness-w.svg");
     }
 }
 
