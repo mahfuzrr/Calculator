@@ -27,9 +27,9 @@ function theme1()
         ss = document.getElementById("icon");
         ss.style.backgroundColor = "rgb(41,45,54)";
         ss = document.getElementById("night");
-        ss.setAttribute("src", "/logo/moon-w.svg")
+        ss.setAttribute("src", "icon/moon-w.svg")
         ss = document.getElementById("brightness");
-        ss.setAttribute("src", "/logo/brightness-w.svg");
+        ss.setAttribute("src", "icon/brightness-w.svg");
     }
 }
 
@@ -62,9 +62,9 @@ function theme2()
         ss = document.getElementById("icon");
         ss.style.backgroundColor = "#E5E8E8";
         ss = document.getElementById("night");
-        ss.setAttribute("src", "/logo/moon.svg")
+        ss.setAttribute("src", "icon/moon.svg")
         ss = document.getElementById("brightness");
-        ss.setAttribute("src", "/logo/brightness.svg");
+        ss.setAttribute("src", "icon/brightness.svg");
         
     }
 }
