@@ -153,5 +153,5 @@ function operation(val1, val2, op)
     else if(op == '-')return val1 - val2;
     else if(op == '×')return val1 * val2;
     else if(op == '÷')return val1/val2;
-    else if(op == '%')return val1/100;
+    else if(op == '%')return ((val1/val2)*100).toFixed(3);
 }
