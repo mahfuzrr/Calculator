@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    <div id="main">
+
+        <div id="calculator-body">
+
+            <div id="output">
+                <div id="icon">
+                    <img src="../logo/brightness.svg" alt="brightness" id="brightness" class="bright" onclick="theme2()">
+                    <img src="../logo/moon.svg" alt="night-mode" id="night" class="moon" onclick="theme1()">
+                </div>
+                <div id="prev-output" class="output-style"></div>
+                <div id="cur-output" class="output-style"></div>
+            </div>
+
+            <div id="all-buttons">
+                <button id="all-clear" class="btn" style="color: #2ECC71;">AC</button>
+                <button id="backspace" class="btn" style="color: #2ECC71;">CE</button>
+                <button class="operator btn" style="color: #2ECC71;">%</button>
+                <button class="operator btn" style="color: #E74C3C;">÷</button>
+                <button class="number btn">7</button>
+                <button class="number btn">8</button>
+                <button class="number btn">9</button>
+                <button class="operator btn" style="color: #E74C3C;">×</button>
+                <button class="number btn">4</button>
+                <button class="number btn">5</button>
+                <button class="number btn">6</button>
+                <button class="operator btn" style="color: #E74C3C;">-</button>
+                <button class="number btn">1</button>
+                <button class="number btn">2</button>
+                <button class="number btn">3</button>
+                <button class="operator btn" style="color: #E74C3C">+</button>
+                <button class="number btn">0</button>
+                <button class="number btn">.</button>
+                <button class="operator btn" id="spacing" style="color: #E74C3C;">=</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
